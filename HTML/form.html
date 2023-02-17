@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+    <title>HTML-Forms</title>
+    <style>
+        .formDiv {
+            width: 420px;
+            background-color: antiquewhite;
+        }
+    </style>
+  </head>
+
+  <body>
+  <div class="formDiv">
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Surname:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email Address:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="cinsiyetRadio" value="Male" id="maleRadio">
+                    <label for="maleRadio">Male</label>
+                    <input type="radio" name="cinsiyetRadio" value="Female" id="femaleRadio">
+                    <label for="femaleRadio">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Date:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th colspan="2">Hobbies</th>
+            </tr>
+            <tr>
+                <td>Reading</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Swimming</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Listen to Music</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Traveling</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea cols="50" rows="7" placeholder="Write your message!"></textarea></td>
+            </tr>
+    
+            <tr>
+                <td>I have read it,and agree.<input type="radio" name="agreement"></td>
+            </tr>
+            <tr>
+                <td>I have read it,and do NOT agree.<input type="radio" name="agreement"></td>
+            </tr>
+    
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit" style="margin-right: 10px;"> 
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+  </div>
+  </body>
+</html>

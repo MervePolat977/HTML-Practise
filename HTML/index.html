@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsive-->
+    <meta name="keywords" content="Merve Polat, HTML tutorial">
+    <meta name="description" content="HTML bir programlama dili değildir, ancak bir yazılım dilidir. CSS ve Js ile birlikte kullanılır.">
+    <title>HTML Tutorial-Merve Polat</title>
+    <!--link etiketi: css dosyalarını aktif hale getirmek için-->
+
+    <style>
+        .myDiv {
+            border: 10px outside palegreen;
+            background-color: palevioletred;
+            text-align: center;
+        }
+
+        .divOzellik {
+            width: 100%;
+            height: 400px;
+            background-color: antiquewhite;
+            margin-bottom: 5px;
+        }
+        .divOzellik2 {
+            width: 100%;
+            height: 300px;
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    merve polat
+    <hr>
+
+    <!--p etiketi arasına lorem50 yazarsak 50 sözcüklü parakrag üretir-->
+    <h1 style="color:cadetblue">P Etiketi</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, veniam repellendus expedita ex pariatur perferendis vero placeat blanditiis mollitia aperiam, eos illum hic sint commodi nostrum, vel perspiciatis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem veniam id quaerat perferendis minus officiis necessitatibus, voluptate aliquam tenetur nihil omnis consequuntur optio cumque sint esse perspiciatis minima, molestiae maiores odit facilis voluptatum. Dolore natus ea veritatis dolorem labore rem quibusdam amet quia reprehenderit numquam, officia dolores, laborum sint?</p>
+    <div class="content"></div>
+
+
+    <hr>
+    <h1 style="color: blueviolet;">Header(Başlık) Etiketleri</h1>
+    <h1>Merve Polat</h1>
+    <h2>Merve Polat</h2>
+    <h3>Merve Polat</h3>
+    <h4>Merve Polat</h4>
+    <h5>Merve Polat</h5>
+    <h6>Merve Polat</h6>
+    <hr color="pink">
+    <br/>
+    <br>
+    <hr>
+
+    <!--stiller-->
+    <strong>Java</strong><br>
+    <b>Java</b><br>
+    <i>Java</i><br>
+    <p><strong><i><u>Java</u></i></strong></p><br>
+    <mark style="color: blue;">Java</mark>
+
+    <!--css ile bold yapma-->
+    <h3 style="font-weight:bold; color:yellowgreen">Merve Polat</h3>
+    <hr style="color: orangered;">
+
+    <!--img-->
+    <center>
+        <img src="photos/kadikoy.jpg" alt="Kadikoy Rıhtım" width="400"><br>
+        Kadıköy Rıhtım
+    </center>
+    <hr style="color: bisque; width: 1000px;">
+
+    <!--a etiketi-->
+    Google'a gitmek için <a href="https://www.google.com.tr/" target="_blank">tıklayınız!</a><br>
+    Youtube kanalıma gitmek için <a href="https://www.youtube.com/channel/UCgWw4G_XMGGGGbRqR9e4evA" target="_blank">tıklayınız!</a>
+    <br><br>
+
+
+    <a href="https://www.youtube.com/channel/UCgWw4G_XMGGGGbRqR9e4evA"" target="_blank">
+        <center>
+            <img src="photos/icon.png" alt="icon bulunamadı!" width="100">
+        </center>
+    </a>
+    <hr>
+
+
+    <ol type="A">
+        <li>Kahve</li>
+        <li>Çay</li>
+        <li>Oralet</li>
+        <li>Milshake</li>
+        <li>Salep</li>
+        <li>Limonata</li>
+    </ol>
+
+    <ul type="disc">
+        <li>Kazandibi</li>
+        <li>Waffle</li>
+        <li>Triliçe</li>
+        <li>Cheescake</li>
+        <li>San Sebastian</li>
+    </ul>
+    <br><br>
+
+
+    <ol>
+        <li>
+            İç Donanım Birimleri
+            <ol type="I">
+                <li>Anakart</li>
+                <li>İşlemci</li>
+                <li>Bellek</li>
+            </ol>
+        </li>
+        <li>
+            Dış Donanım Birimleri
+            <ol>
+                <li>
+                    Monitor
+                    <ol type="a">
+                        <li>LCD</li>
+                        <li>LED</li>
+                    </ol>
+                </li>
+                <li>Klavye</li>
+                <li>Fare</li>
+            </ol>
+        </li>
+        
+    </ol>
+    <br>
+
+
+
+    <table border="1">
+        <tr>
+            <th rowspan="4">Kişisel Bilgiler</th>
+            <th>İsim</th>
+            <th>Soyisim</th>
+            <th>Yaş</th>
+        </tr>
+        <tr>
+            <td>Merve</td>
+            <td>Polat</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Aleyna</td>
+            <td>Narin</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Deniz</td>
+            <td>Polat</td>
+            <td>18</td>
+        </tr>
+    </table>
+    <hr>
+    <br><br>
+
+
+
+
+
+
+    <!--Tablolar-->
+    <table border="1">
+        <tr>
+            <td colspan="3" align="center">Product</td>
+        </tr>
+        <tr align="center">
+            <td>No</td>
+            <td>P.Name</td>
+            <td>P.Count</td>
+        </tr>
+        <tr align="center">
+            <td>1</td>
+            <td>Pen</td>
+            <td rowspan="3">50</td>
+        </tr>
+        <tr align="center">
+            <td>2</td>
+            <td>Book</td>
+        </tr>
+        <tr align="center">
+            <td>3</td>
+            <td>Dust</td>
+        </tr>
+    </table>
+
+    <hr style="color: aquamarine;">
+
+
+
+    <!--
+        NOT: p ve h etiketleri blok elementi iken span etiketi inline dır.
+    -->
+    <span>Merve Polat</span>
+    <span>Hakkımda</span>
+    <span>Telif hakkı saklıdır</span>
+    <hr><br><br><br>
+
+
+    <!--div-->
+    <h1>The div element</h1>
+    <div class="myDiv">
+        <h2>This is a heading in a div element</h2>
+        <p>This is some text in a div element</p>
+    </div>
+    <p>This is some text OUTSIDE of the div element</p>
+
+    <!--
+        . -> class
+        # -> id
+    -->
+
+    <br><br><br>
+    <div class="divOzellik">
+        <p>Merve Polat</p>
+        <p>Web Siteme Hoş Geldiniz :)</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, amet temporibus? Pariatur, veniam. Nobis ab molestiae cumque quos optio vero ea id, ex harum doloremque et fuga dolore a cupiditate, aspernatur nisi nihil veritatis unde quod delectus aut quidem enim! Unde facere atque dicta omnis voluptas reiciendis illum mollitia molestias temporibus assumenda, itaque quam illo reprehenderit provident rerum recusandae nulla iure veniam velit maxime neque labore. Aperiam maxime, omnis sed commodi exercitationem nam animi velit deserunt explicabo hic ipsa, fugit sint quaerat officia eaque. Repudiandae laudantium sint quo omnis, iste tempore ut beatae assumenda eius rem velit, dolor quae ipsam.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia earum totam suscipit cum odit ipsum sed! Rem sit unde harum quibusdam non reiciendis exercitationem voluptas, facilis recusandae quas itaque id quia omnis, debitis blanditiis temporibus fuga incidunt accusamus a error facere eius qui veniam ipsam. Similique labore placeat odit delectus optio necessitatibus amet dicta deserunt officiis natus, minima cupiditate reiciendis nostrum porro, aperiam aliquid veniam cumque vel repellendus architecto? Doloremque numquam exercitationem labore aspernatur dolores, alias placeat distinctio? Sed corporis cum, sint repellat vero, earum sequi optio aperiam explicabo esse maiores quam omnis molestias illum beatae consectetur soluta necessitatibus obcaecati?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus officia obcaecati illum. Eveniet quas asperiores, aperiam sit accusamus dicta repellendus. Cumque dolorem similique, quidem debitis autem sed numquam veritatis nisi libero nam recusandae repellat quod vel labore facilis magni tenetur architecto soluta culpa non, minima asperiores eveniet! Quae, eveniet.</p>
+
+    </div>
+
+    <div class="divOzellik2">
+
+    </div>
+
+
+
+
+
+    <hr><br><br><br>
+    <h3 style="color:burlywood">Formlar</h3>
+    <form>
+        Adınız: <input type="text"><br>
+        <input type="text" placeholder="Soyadınız"><br>
+        <input type="password" placeholder="Şifreniz"><br>
+        <input type="email" placeholder="Email adresiniz"><br><br>
+
+        Kitap okumak<input type="checkbox" id="kitapCheckbox"><br>
+        Spor yapmak <input type="checkbox" id="sporCheckbox"><br>
+        Yüzmek <input type="checkbox" id="yuzmeCheckbox"><br><br>
+
+        Cinsiyetiniz: <br>
+        Kadın<input type="radio" name="cinsiyetRadio" checked="True"> <br>
+        Erkek<input type="radio" name="cinsiyetRadio"><br>
+        
+        <input type="file"><br><br>
+        
+        <textarea name="mesajInput" id="mesajAlani" cols="70" rows="10"></textarea><br><br>
+
+        İçecekler:
+        <select>
+            <option value="Çay">Çay</option>
+            <option value="Kahve">Kahve</option>
+            <option value="Limonata">Limonata</option>
+            <option value="Latte">Latte</option>
+            <option value="Milshake">Milshake</option>
+            <option value="Ice Tea">Ice Tea</option>
+        </select><br><br>
+
+
+        <input type="submit" value="Gönder"> <!--Gönder-->
+        <input type="reset" value="Sil Süpür"> <!--Temizle--><br><br>
+
+
+    </form>
+
+</body>
+</html>
